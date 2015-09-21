@@ -20,3 +20,25 @@ email: string
 - email must be present
 - email must be unique (logins)
 - email must be valid
+
+Chefs:
+
+What we have already:
+-chef model and validations
+-chefs table with columns chefname and email
+
+What we need to do:
+-Add passwords to the chefs table so chefs can be authenticated and logged in
+-Use e-mail as login credentials, since email is unique
+-Ability to register new chefs to use application
+-Ability to display chefs profile
+-Ability to list chefs using the application
+-Ability for chefs to log in and log out of the application
+-Restrict actions like create recipe, edit recipe and like feature to logged in chefs only
+-Restricting edit of recipes by chefs who created the recipes
+
+Using "Has secure password" rails default
+Why are we not using Devise? (authentication system)
+
+When you're using pre-packaged gems, you're limited by what those programmers already made for you.
+It's actually relatively easy to make your own. 
